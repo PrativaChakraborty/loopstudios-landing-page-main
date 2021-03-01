@@ -95,7 +95,7 @@ img{
 .attribution { font-size: 11px; text-align: center; };
     .attribution a { color: hsl(228, 45%, 44%); };
 
-@media screen and (max-width:1300)  
+@media screen and (max-width:1300px)  
 {
     .c-img-div{
         position: relative;
