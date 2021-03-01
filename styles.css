@@ -94,3 +94,12 @@ img{
 
 .attribution { font-size: 11px; text-align: center; };
     .attribution a { color: hsl(228, 45%, 44%); };
+
+@media screen and (max-width:1300)  
+{
+    .c-img-div{
+        position: relative;
+        padding: 0 1rem;
+
+    }
+} 
