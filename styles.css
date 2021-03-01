@@ -1,0 +1,96 @@
+
+
+.title-container{
+    background-image: linear-gradient(to bottom right, black,transparent) , url(images/desktop/image-hero.jpg) ;
+    background-size: cover;
+   padding: 7%;
+}
+/* Nav Bar  */
+.navigation a:hover::after{
+border-bottom: 3px solid white;
+content: ""; /* This is necessary for the pseudo element to work. */ 
+    display: block; /* This will put the pseudo element on its own line. */
+    margin: 0 auto; /* This will center the border. */
+    width: 30%; /* Change this to whatever width you want. */
+    padding-top: 10%; /* This creates some space between the element and the border. */
+     /* This creates the border. Replace black with whatever color you want. */
+}
+.nav-title{
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+/* title */
+.title-head-container{
+    margin-left: 2.5%;
+}
+
+.title{
+    font-family: 'Exo 2', sans-serif;
+    
+}
+/* About */
+
+.about{
+    padding: 10%;
+}
+.about-img{
+    size: 50%;
+}
+.about-p{
+    font-size: 0.75rem;
+    color: rgb(173, 177, 180);
+    font-weight: bold;
+    padding-left: 3.5%;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+/* Creation */
+.m-creation{
+    margin-bottom: 10%;
+}
+.cont{
+    padding-bottom: 10%;
+}
+.creation-container{
+    padding: 0 6%;
+}
+.button{
+    border-radius: 3%;
+}
+.button-text{
+    letter-spacing: 0.2rem;
+}
+.gradient{
+    background-image: linear-gradient(transparent,black) ;
+}
+img{
+    position: relative;
+    z-index: -1;
+    background-size: contain;
+}
+.c-img-div:hover{
+    opacity: 0.4;
+    
+}
+ 
+.creation-text{
+    bottom: 10%;
+    left: 15%;
+    line-height: 2.5rem;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+
+/* Footer */
+.footer{
+    background-color: black;
+}
+.icon-div{
+    padding-left: 25%;
+}
+.footer-right-padding{
+    padding-left: 18%;
+}
+
+.attribution { font-size: 11px; text-align: center; };
+    .attribution a { color: hsl(228, 45%, 44%); };
